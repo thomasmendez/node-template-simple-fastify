@@ -1,0 +1,19 @@
+{
+  "name": "node-template-simple-fastlify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/thomasmendez/node-template-simple-fastlify.git",
+  "author": "thomasmendez <thomasmendez01@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^4.26.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "typescript": "^5.4.5"
+  }
+}
