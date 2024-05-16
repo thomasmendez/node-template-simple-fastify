@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  fastify:
+    build: .
+    ports:
+      - "4000:8080"
